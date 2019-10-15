@@ -1,0 +1,93 @@
+	.maindiv
+	{
+		background-image: url("../images/practice.png");
+		background-repeat: no-repeat;
+		height: 100vh;
+		background-size: cover;
+		background-position: center;
+	}
+	header{
+	width: 90%;
+    margin-left: auto;
+    height: 100px;
+    margin-right: auto;
+	}
+	body{
+		padding: 0;
+		margin: 0;
+	}
+	.logo-area{
+		width:20%;
+        float: left;
+            margin-top: 18px;
+
+	}
+	.nav{
+		width:80%;
+        float: right;
+	}
+	.logo
+	{
+		text-decoration: none;	
+		font-size: 20px;	
+		color: #000624;
+		margin-left: 70px;
+		    text-transform: capitalize;
+	}
+	header ul{
+   padding: 0;
+    margin-top: 18px;
+        text-align: right;
+	}
+	header ul li{
+    display: inline-block;
+    list-style: none;
+	}
+	header ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    color: #000000;
+	}
+	header ul li a:hover{
+		color: #1A659E;
+		transition: 0.5s;
+	}
+	.spacer{
+		height: 100px;
+	}
+	.articles{
+		width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+	}
+	.first{
+          color: #23293B;
+          font-size: 20px;
+          font-weight: 100;
+          margin-bottom: 0;
+	}
+	.second{
+		    color: #121A32;
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 0;
+    margin-top: 10px;
+	}
+	.third{
+		margin-top: 10px;
+	color: #2D7DB4;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+	}
+	.parragraph{
+		width: 50%;
+    color: #7B8091;
+	}
+	.learn{    text-decoration: none;
+    color: #000000;
+    border: 1px solid #14140F;
+    border-radius: 20px;
+    padding: 7px;}
